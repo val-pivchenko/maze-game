@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.next-lvl {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: brown;
+    color: white;
+    outline: none;
+    border: none;
+    transition: .3s;
+}
+
+.next-lvl:hover {
+    background-color: white;
+    color: brown;
+}
